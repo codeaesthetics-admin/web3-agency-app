@@ -1,0 +1,537 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../../assets/fonts/SpaceGrotesk.otf");
+  font-family: "Visitor TT2 BRK";
+  src: url("../../assets/fonts/visitor.ttf");
+}
+
+.details-word {
+  display: inline !important;
+}
+.swap-main-content {
+  position: absolute;
+  top: 30%;
+  max-height: 90vh;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swap-page-end {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3%;
+}
+.swap-heading-text {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 106px;
+
+  color: #ffffff;
+}
+.swap-description-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.swap-main-btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  background: transparent;
+  border: 3px solid #4519e0;
+  border-radius: 10px;
+
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+
+  color: #ffffff;
+}
+.swap-heading1-text {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 51px;
+  color: #ffffff;
+}
+.swap-description1-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.swap-form-heading {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 47px;
+  color: #ffffff;
+}
+.swap-form-desc {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+
+  color: #a7a7a7;
+}
+.swap-form-text2 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.swap-form-text3 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+.swap-form-text4 {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+.swap-form-btn {
+  background: none;
+  border: 3px solid #4519e0;
+  border-radius: 10px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+
+  color: #ffffff;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.swap-form-input {
+  width: 90%;
+  background: none;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #4519e0;
+  margin-bottom: 20px;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 800px) {
+  .swap-heading1-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 51px;
+
+    color: #ffffff;
+  }
+  .swap-description1-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .swap-heading-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 86px;
+    margin-bottom: 0px;
+    color: #ffffff;
+  }
+  .swap-description-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .main-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 5px;
+
+    background: transparent;
+    border: 3px solid #4519e0;
+    border-radius: 10px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .swap-heading-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    margin-bottom: 0px;
+    color: #ffffff;
+  }
+  .swap-description-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .main-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 5px;
+
+    background: transparent;
+    border: 3px solid #4519e0;
+    border-radius: 10px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .swap-heading-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 66px;
+    margin-bottom: -20px;
+    color: #ffffff;
+  }
+  .swap-description-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .main-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 5px;
+
+    background: transparent;
+    border: 2px solid #4519e0;
+    border-radius: 10px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 11px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .details-word {
+    display: block !important;
+  }
+  .swap-heading-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    padding: 5%;
+    color: #ffffff;
+  }
+  .swap-description-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .card-title-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .card-desc-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .swap-card {
+    box-sizing: border-box;
+    border-color: #4519e0;
+    background: transparent;
+    border-radius: 10px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .swap-heading1-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 41px;
+
+    color: #ffffff;
+  }
+  .swap-description1-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .swap-heading1-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 31px;
+
+    color: #ffffff;
+  }
+  .swap-description1-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .swap-form-heading {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 37px;
+
+    color: #ffffff;
+  }
+  .swap-form-desc {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+
+    color: #a7a7a7;
+  }
+  .swap-form-text2 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .swap-form-text3 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .swap-form-text4 {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 20px;
+
+    color: #ffffff;
+  }
+  .swap-form-btn {
+    background: none;
+    border: 3px solid #4519e0;
+    border-radius: 10px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .swap-form-input {
+    width: 90%;
+    background: none;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #4519e0;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .swap-form-heading {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #ffffff;
+  }
+  .swap-form-desc {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+
+    color: #a7a7a7;
+  }
+  .swap-form-text2 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .swap-form-text3 {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 7px;
+    line-height: 10px;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+  .swap-form-text4 {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+
+    color: #ffffff;
+  }
+  .swap-form-btn {
+    background: none;
+    border: 3px solid #4519e0;
+    border-radius: 10px;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .swap-form-input {
+    width: 90%;
+    font-size: 7px;
+    background: none;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #4519e0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../../assets/fonts/SpaceGrotesk.otf");
+}
+.navbar {
+  padding: 0%;
+}
+
+.navbar-toggler {
+  border-radius: 5px !important;
+  border-color: #4519e0 !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(69, 25, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.navbar-text-style {
+  text-decoration: none;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff !important;
+  margin-right: 25px;
+}
+.nav-link {
+  border-bottom: 5px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 5px solid #4519e0;
+}
+.active {
+  border-bottom: 5px solid #4519e0;
+}
+@media only screen and (max-width: 460px) {
+  .navbar-text-style {
+    text-decoration: none;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff !important;
+    margin-right: 25px;
+  }
+  .navbar-logo {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,299 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../../assets/fonts/SpaceGrotesk.otf");
+  font-family: "Visitor TT2 BRK";
+  src: url("../../assets/fonts/visitor.ttf");
+}
+
+.home-main-content {
+  position: absolute;
+  top: 30%;
+  max-height: 90vh;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-page-end {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3%;
+}
+.home-card {
+  box-sizing: border-box;
+  border-color: #4519e0;
+  background: transparent;
+  border-radius: 10px;
+  height: 350px;
+}
+.heading-text {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 106px;
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+.description-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.main-btn {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 20px;
+  gap: 10px;
+
+  background: transparent;
+  border: 3px solid #4519e0;
+  border-radius: 10px;
+
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+.heading1-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.25em;
+
+  color: #ffffff;
+}
+.description1-text {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.card-title-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 31px;
+  color: #ffffff;
+}
+.card-desc-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+.end-container {
+  height: 212px;
+  background: rgb(21, 0, 96);
+  background: linear-gradient(
+    90deg,
+    rgba(21, 0, 96, 1) 9%,
+    rgba(14, 12, 23, 1) 30%,
+    rgba(14, 12, 23, 1) 70%,
+    rgba(21, 0, 96, 1) 100%
+  );
+}
+.end-container-btn {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  background: transparent;
+  border-radius: 10px;
+  border-color: #4519e0;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  color: #ffffff;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 800px) {
+  .heading1-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.35em;
+
+    color: #ffffff;
+  }
+  .description1-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .heading-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 66px;
+    margin-bottom: 0px;
+    color: #ffffff;
+  }
+  .description-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 31px;
+    color: #ffffff;
+  }
+  .main-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 5px;
+
+    background: transparent;
+    border: 3px solid #4519e0;
+    border-radius: 10px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .heading1-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.35em;
+
+    color: #ffffff;
+  }
+  .description1-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .heading-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 0px;
+    color: #ffffff;
+  }
+  .description-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  .main-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 10px;
+    gap: 5px;
+
+    background: transparent;
+    border: 3px solid #4519e0;
+    border-radius: 10px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 13px;
+
+    color: #ffffff;
+  }
+  .card-title-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .card-desc-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .home-card {
+    box-sizing: border-box;
+    border-color: #4519e0;
+    background: transparent;
+    border-radius: 10px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .heading1-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.35em;
+
+    color: #ffffff;
+  }
+  .description1-text {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+}

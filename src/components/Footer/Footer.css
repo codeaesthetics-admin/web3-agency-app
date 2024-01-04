@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../../assets/fonts/SpaceGrotesk.otf");
+  font-family: "Visitor TT2 BRK";
+  src: url("../../assets/fonts/visitor.ttf");
+}
+
+.footer-text {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.footer-text2 {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 31px;
+
+  color: #ffffff;
+}
+.footer-heading {
+  font-family: "Visitor TT2 BRK";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 71px;
+
+  color: #ffffff;
+}
+.footer-btn {
+  box-sizing: border-box;
+  border: 1px solid #4519e0;
+  background: transparent;
+
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+
+  color: #ffffff;
+}
+/* MEDIA QUERIES */
+@media only screen and (max-width: 780px) {
+  .footer-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  .footer-heading {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 71px;
+
+    color: #ffffff;
+  }
+  .footer-btn {
+    box-sizing: border-box;
+    border: 1px solid #4519e0;
+    background: transparent;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #ffffff;
+  }
+  .footer-heading {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+
+    color: #ffffff;
+  }
+  .footer-btn {
+    box-sizing: border-box;
+    border: 1px solid #4519e0;
+    background: transparent;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .footer-text {
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    color: #ffffff;
+  }
+  .footer-heading {
+    font-family: "Visitor TT2 BRK";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 31px;
+
+    color: #ffffff;
+  }
+  .footer-btn {
+    box-sizing: border-box;
+    border: 1px solid #4519e0;
+    background: transparent;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #ffffff;
+  }
+}
